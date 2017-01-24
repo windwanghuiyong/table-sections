@@ -13,6 +13,8 @@
 		0CA2420D1E37615C0004A041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA2420B1E37615C0004A041 /* Main.storyboard */; };
 		0CA2420F1E37615C0004A041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA2420E1E37615C0004A041 /* Assets.xcassets */; };
 		0CA242121E37615C0004A041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA242101E37615C0004A041 /* LaunchScreen.storyboard */; };
+		0CA2421A1E3761FE0004A041 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CA242191E3761FE0004A041 /* sortednames.plist */; };
+		0CA2421D1E376EAC0004A041 /* SearchResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2421C1E376EAC0004A041 /* SearchResultsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		0CA2420E1E37615C0004A041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA242111E37615C0004A041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA242131E37615C0004A041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA242191E3761FE0004A041 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		0CA2421B1E376EAC0004A041 /* SearchResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsController.h; sourceTree = "<group>"; };
+		0CA2421C1E376EAC0004A041 /* SearchResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +67,12 @@
 				0CA242061E37615C0004A041 /* AppDelegate.m */,
 				0CA242081E37615C0004A041 /* ViewController.h */,
 				0CA242091E37615C0004A041 /* ViewController.m */,
+				0CA2421B1E376EAC0004A041 /* SearchResultsController.h */,
+				0CA2421C1E376EAC0004A041 /* SearchResultsController.m */,
 				0CA2420B1E37615C0004A041 /* Main.storyboard */,
 				0CA2420E1E37615C0004A041 /* Assets.xcassets */,
 				0CA242101E37615C0004A041 /* LaunchScreen.storyboard */,
+				0CA242191E3761FE0004A041 /* sortednames.plist */,
 				0CA242131E37615C0004A041 /* Info.plist */,
 				0CA242021E37615C0004A041 /* Supporting Files */,
 			);
@@ -138,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA2421A1E3761FE0004A041 /* sortednames.plist in Resources */,
 				0CA242121E37615C0004A041 /* LaunchScreen.storyboard in Resources */,
 				0CA2420F1E37615C0004A041 /* Assets.xcassets in Resources */,
 				0CA2420D1E37615C0004A041 /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA2421D1E376EAC0004A041 /* SearchResultsController.m in Sources */,
 				0CA2420A1E37615C0004A041 /* ViewController.m in Sources */,
 				0CA242071E37615C0004A041 /* AppDelegate.m in Sources */,
 				0CA242041E37615C0004A041 /* main.m in Sources */,
